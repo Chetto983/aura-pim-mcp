@@ -7,7 +7,8 @@ namespace CalendarMcp.HttpServer.Admin;
 /// <summary>
 /// Google always returns to one fixed relay URI; this install's own callback travels inside
 /// <c>state</c> as <c>&lt;nonce&gt;.&lt;base64url(callback)&gt;</c> so the relay can forward the
-/// browser back. The relay page lives in github.com/chetto1983/aura-connect and only forwards to
+/// browser back. The relay page lives in gitlab.com/Chetto1983/aura-connect, served by Cloudflare
+/// Pages, and only forwards to
 /// <see cref="CallbackPath"/>. The whole state is matched against the one this install issued
 /// before a code is exchanged, so a state rewritten in transit is refused here.
 /// </summary>

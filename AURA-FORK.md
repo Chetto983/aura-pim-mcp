@@ -51,7 +51,8 @@ file says the fork does not have, this file wins.
      of a 302; the callback renders a self-contained HTML result page; the cockpit polls
      `/admin/accounts/{id}/status` (which also reports `linked` for Google). Only
      `/admin/auth/google/callback` is exempt from the bearer.
-   - **Google redirects through a shared relay** (github.com/chetto1983/aura-connect). The
+   - **Google redirects through a shared relay** (gitlab.com/Chetto1983/aura-connect, on
+     Cloudflare Pages). The
      registered redirect URI is one fixed page, identical for every install; `state` is
      `<nonce>.<base64url(install callback)>` and the page forwards the browser to that callback.
      `StartGoogleOAuth` takes an optional `returnBase` (winning over `ExternalBaseUrl`) and

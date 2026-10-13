@@ -33,7 +33,7 @@ public class CalendarMcpConfiguration
     /// install whatever address it is reached by — a LAN IP included, which Google rejects as a
     /// redirect URI of its own.
     /// </summary>
-    public string GoogleOAuthRelayUrl { get; set; } = "https://chetto1983.github.io/aura-connect/google/callback/";
+    public string GoogleOAuthRelayUrl { get; set; } = "https://chetto1983-aura-connect.pages.dev/google/callback/";
 }
 
 /// <summary>

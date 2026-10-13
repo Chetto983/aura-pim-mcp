@@ -178,7 +178,7 @@ If your OAuth consent screen is in **"Testing"** publishing status, Google will 
    - `http://localhost:8642/authorize/` — required for CLI authentication
    - If using the HTTP server admin API, also add the shared relay URI, exactly as written
      (trailing slash included):
-     - `https://chetto1983.github.io/aura-connect/google/callback/`
+     - `https://chetto1983-aura-connect.pages.dev/google/callback/`
 
      It is the same for every server. Google returns there and the relay page forwards the
      browser to your server's own `/admin/auth/google/callback`, whatever address it is reached

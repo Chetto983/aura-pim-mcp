@@ -10,7 +10,7 @@ namespace CalendarMcp.Tests.Admin;
 [TestClass]
 public sealed class GoogleOAuthRelayTests
 {
-    private const string Relay = "https://chetto1983.github.io/aura-connect/google/callback/";
+    private const string Relay = "https://chetto1983-aura-connect.pages.dev/google/callback/";
     private const string Callback = "https://192.168.101.158/admin/auth/google/callback";
 
     [TestMethod]
